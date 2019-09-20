@@ -152,7 +152,7 @@ Như bạn thấy, mỗi lần chúng ta trở lại màn hình chính thì memo
 ## Giải thích
 
 Tại sao lần chạy đầu tiên memory không được giải phóng?
-```
+```swift
 newCat.updated = { // [unowned self] in
     DispatchQueue.main.async {
         self.tableView?.reloadRows(at: [indexPath], with: .automatic)
