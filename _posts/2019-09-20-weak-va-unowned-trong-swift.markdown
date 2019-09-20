@@ -4,7 +4,7 @@ title:  "Weak và Unowned trong Swift"
 date:   2019-09-20 10:29:26 +0700
 categories: iOS
 ---
-Đây là bài dịch lại từ nguồn https://medium.com/better-programming/weak-and-unowned-keywords-in-swift-7bda8bdd97c4
+Đây là bài dịch lại từ [https://medium.com/better-programming/weak-and-unowned-keywords-in-swift-7bda8bdd97c4](https://medium.com/better-programming/weak-and-unowned-keywords-in-swift-7bda8bdd97c4)
 # Weak và Unowned trong Swift
 Tầm quan trọng khi sử dụng chúng trong closures & ví dụ
 
