@@ -12,13 +12,16 @@ Tầm quan trọng khi sử dụng chúng trong closures & ví dụ
 
 Nếu bạn quen thuộc với Swift thì chắc hẳn bạn đã nghe đến hai từ khóa *unowned*, *weak*. Nếu bạn chưa từng nghe, thì hãy tìm hiểu chúng bây giờ. Tôi sẽ không giải thích tất cả mọi thứ về những từ khóa này, nhưng tôi sẽ nói cho bạn biết vì sao bạn nên biết và nên sử dụng chúng.
 
-Điều gì sẽ xảy ra nếu chúng ta không dùng unowned, weak trong closures?\
-Câu trả lời ngắn gọn là: memory leaks!\
+Điều gì sẽ xảy ra nếu chúng ta không dùng unowned, weak trong closures?
+
+Câu trả lời ngắn gọn là: memory leaks!
+
 Câu trả lời dài hơn là: hãy để tôi cho bạn thấy…
 
 ## Cách chúng hoạt động!
 
-Để xem việc không sử dụng unowned, weak có thể tạo ra memory leaks như thế nào, tôi đã tạo ra một ứng dụng đơn giản cho phép bạn nhập vào web request status code, sau đó hiển thị chúng trong một tableview với những bức ảnh các chú mèo tương ứng.\
+Để xem việc không sử dụng unowned, weak có thể tạo ra memory leaks như thế nào, tôi đã tạo ra một ứng dụng đơn giản cho phép bạn nhập vào web request status code, sau đó hiển thị chúng trong một tableview với những bức ảnh các chú mèo tương ứng.
+
 Tôi đã không nghĩ ra ý tưởng tuyệt vời nào để ghép những mã lỗi với hình ảnh những chú mèo, nhưng tôi đã khám phá ra API tuyệt vời, và dễ sử dụng:
 [**HTTP Cats**](https://http.cat/)
 
