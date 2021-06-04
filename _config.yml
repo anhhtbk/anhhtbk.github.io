@@ -27,7 +27,7 @@ twitter_username: anhhtbk
 github_username: anhhtbk
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
